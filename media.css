@@ -1,0 +1,617 @@
+@media (max-width: 3200px) {
+    body {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+    .header__container {
+        width: 100%;
+    }
+    .main {
+    margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+    .nav__items {
+        margin-right: 15px;
+        padding-left: 5px;
+    }
+    .header__logo {
+        position: absolute;
+    top: 25%;
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    width: 152px;
+    }
+    .header__search {
+        position: absolute;
+        right: 5%;
+    }
+    .burger {
+        position: relative;
+        display: block;
+        margin-left: 21px;
+        margin-top: 30px;
+        width: 60px;
+        height: 35px;
+    }
+    .burger__line{ 
+        position: absolute;
+        left: 50%;
+        width: 30px;
+        height: 3px;
+        border-radius: inherit;
+        background-color: #000000;
+    }
+    .burger__line:nth-child(1) {
+        top: 8px;
+    }
+    .burger__line:nth-child(3) {
+        bottom: 4px;
+    }
+
+    .project {
+        width: 90%;
+        height: 667px;
+        margin-left: 48px;
+        margin-top: 41px;
+        border-radius: 20px;
+        background-image: url("../img/hero2.png");
+    }
+    .project__item {
+        margin-left: 79px;
+    }
+    .project__title {
+        padding-top: 159px;
+        font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    }
+    .project__descr {
+        width: 774px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .project__item:last-child {
+        padding-top: 51px;
+    }
+    .project__btn {
+        padding: 23.571px 39.1419px;
+    }
+
+    .joinus {
+        margin-top: 35px;
+    margin-left: 45px;
+    }
+    .joinus__dscr {
+        width: 920px;
+    }
+    .joinus__table {
+        height: 1275px;
+        flex-wrap: wrap;
+    }
+    .joinus__table-left {
+        width: 100%;
+        height: 642px;
+        background-image: url(../img/Rectangle2.png);
+        background-repeat: no-repeat;
+    }
+    .joinus__asdasdsd {
+        width: 100%;
+    }
+    .joinus__table-btn {
+        margin-left: 180px;
+    }
+    .joinus__table-right {
+        position: relative;
+        right: 0;
+        margin-top: 29px;
+        margin-left: 0;
+    }
+
+.work {
+    margin-left: 52px;
+}
+.work__text {
+    margin-top: -10px;
+    width: 437px;
+    
+}
+.work__image {
+   background-image: url('/img/work2.png');
+   margin-left: 49px;
+    margin-top: 43px;
+}
+.questions {
+    margin-top: 87px;
+    margin-left: 53px;
+}
+.questions__items {
+margin-top: 22px;
+width: 100%;
+}
+.questions__btn {
+    margin-right: 2em;
+}
+.questions__text {
+    width: 740px;
+    font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+}
+.footer__items-left {
+  padding: 20px;
+}
+.footer__items-checkbox {
+    width: 70%;
+}
+.footer__wrapper {
+    margin-top: 21px;
+}
+.footer__button {
+    margin-left: 145px;
+}
+.footer__items-descr {
+    display: none;
+}
+.checkbox-dscr {
+    display: none;
+}
+.work__btn {
+    margin-top: 2em;
+}
+.footer__input-name {
+    width: 70%;
+   }
+   .footer__input-email {
+    width: 70%;
+   }
+   .footer__input-text{
+    width: 70%;
+   }
+
+}
+
+@media (max-width: 768px) {
+    .header__container {
+        height: 69px;
+    }
+    .burger {
+        margin-top: 16px;
+    }
+    .header__logo {
+    top: 17%;
+    left: 40.3%;
+    }
+    .header__search {
+    top: 24px;   
+    right: 6.2%;
+    }
+.project {
+    width: 87%;
+}
+    .project__item {
+        margin-left: 41px;
+       
+    }
+    .project__title {
+        width: 100%;
+        font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    }
+    .project__descr {
+        width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    height: 80px;
+    }
+
+    .joinus__dscr {
+        width: 100%;
+    }
+    .joinus__table {
+        margin-top: 80px;
+    }
+    .joinus__table-left {
+        width: 100%;
+    }
+    .joinus__asdasdsd {
+        width: 100%;
+    }
+    .joinus__table-dscr {
+        padding: 8px;
+        width: 35%;
+    }
+    .joinus__table-btn {
+        margin-left: 8px;
+        margin-top: 74px;
+    }
+    .joinus__table-right {
+        margin-top: -69px;
+    }
+    .joinus__table-right-top {
+        width: 100%;
+        margin-top: 22px;
+        height: 45%;
+    }
+    .joinus__table-right-bot {
+        width: 100%;
+        height: 45%;
+    }
+    .joinus__list {
+        padding-top: 10px;
+    }
+    .joinus__image {
+        width: 72px;
+    height: 72px;
+    margin-left: 24px;
+    margin-top: 85px;   
+    }
+    .joinus__box {
+        left: 42px;
+    top: -53px;
+    }
+    .joinus__item-up {
+        margin-left: 56px;
+    }
+    .joinus__notbox {
+        left: 36px;
+        top: -59px;
+    }
+    .work {
+       width: 100%;
+    }
+
+    .work__items {
+        min-width: 54px;
+        margin-right: 12%;
+    }
+   
+    .work__table-steps {
+        flex-direction: column-reverse;
+    }
+
+    .work__image {
+        background-image: url('/img/work3.png');
+        background-size: cover;
+        width: 100%;
+        height: 284px;
+        margin-left: 1px;
+        margin-top: 29px;
+        border-radius: 12px;
+    }
+    .work__table-dscr {
+        margin-top: 15px;
+    }
+    .work__text {
+        margin-top: -16px;
+        width: 100%;
+    }
+        .questions {
+            margin-top: 55px;
+        margin-left: 37px;
+        }
+        .questions__title {
+            width: 100%;
+        }
+        .questions__items {
+            margin-top: 13px;
+            width: 100%;
+            padding-top: 13px;
+        }
+        .questions__text {
+            width: 100%;
+        }
+        .questions__btn {
+            margin-right: 6px;
+        }
+       .footer__nav {
+        display: none;
+       }
+
+       .footer {
+        margin-top: 124px;
+        height: 100%   ;
+       }
+
+       .footer__list {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+       }
+       .footer__items-left {
+        margin-left: -3px;
+    padding: 51px;
+       }
+       .footer__checkbox {
+        margin-left: 20px;
+        width: 100%;
+       }
+
+       .footer__form {
+        margin-left: 50px;
+       }
+       .footer__social {
+        margin-top: 16px;
+       }
+       .footer__input-name {
+        width: 100%;
+       }
+       .footer__input-email {
+        width: 100%;
+       }
+       .footer__input-text{
+        width: 100%;
+       }
+       .footer__button {
+        margin-left: 30%;
+    }
+    .project__btn {
+        padding: 15px 15px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    h2{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    }
+    .header__container {
+        border-radius: 0%;
+    }
+    .burger {
+        width: 15px;
+        height: 35px;
+    }
+    .header__logo {
+        top: 17%;
+        left: 30.3%;
+    }
+    .project {
+        width: 290px;
+        height: 308px;
+        margin-left: 5px;
+        margin-top: 0px;
+        background-size: 290px 308px;
+    }
+    .project__title {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    }
+    .project__item {
+        margin-left: 7px;
+    }
+    .project__title {
+        padding-top: 50px;
+    }
+    .project__descr {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    }
+    .project__item:last-child {
+        padding-top: 23px;
+    }
+    .project__btn {
+        width: 162px;
+        height: 40px;
+        padding: 16px;
+        margin-left: 21px;
+        border-radius: 0;
+    }
+    .joinus {
+        margin-left: 25px;
+    }
+    .joinus__title {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    } 
+    .joinus__dscr {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    }
+    .joinus__table {
+        margin-top: 15px;
+    }
+    .joinus__table-left {
+    background-size:  290px  200px;
+    height: 350px;
+    }
+    .joinus__asdasdsd {
+        display: flex;
+        flex-wrap: wrap;
+        height: 145px;
+        background: none;
+        border-radius: 32px;
+    }
+    .joinus__table-dscr {
+        padding: 0px;
+        margin-left: 6px ;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    }
+    .joinus__table-btn {
+        margin-top: 6em;
+        color: #FF9900;
+        border-radius: 0;
+    }
+    .joinus__table-right {
+        margin-top: -170px;
+        margin-left: 5px;
+    }
+    .joinus__list {
+        flex-direction: column;
+        
+    }
+    .joinus__image {
+        margin-top: 0;
+        
+    }
+    .joinus__table-right-top {
+     margin-top: 19em;
+    padding-bottom: 0;
+     height: auto;
+     border: none;
+    }
+    .joinus__item-up {
+        margin-left: 21px;
+    }
+    .joinus__info {
+        width: 290px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    }
+    .joinus__table-text {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    }
+    .joinus__table-right-bot {
+        margin-top: 85px;
+        border: none;
+    }
+    .work {
+        margin-top: -50px;
+        margin-left: 30px;
+    }
+    .work__items {
+        min-width: 48px;
+    margin-right: 15px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    }
+    .work__descr {
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    }
+    .work__text {
+        width: 100%;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    }
+    .work__btn {
+        margin-top: 12em;
+    }
+    .work__button-more {
+        margin-left: -8px;
+        padding: 19px 16px;
+        border-radius: 0;
+    }
+    .work__button-contract {
+        margin-left: 20px;
+    padding: 19px 16px;
+    border-radius: 0;
+    }
+    .questions {
+        margin-top: 50px;
+        margin-left: 29px;
+    }
+    .questions__title {
+        width: 100%;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    }
+    .questions__items {
+        width: 100%;
+    }
+    .questions__text {
+        width: 100%;
+        font-family: 'Montserrat';
+        font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    }
+    .questions__btn {
+        margin-right: 14px;
+    }
+    .footer {
+        margin-top: 37px;
+    }
+    .footer__checkbox {
+        margin-left: 27px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    }
+    .footer__form  {
+    margin-left: 26px;
+}
+.footer__input-name {
+    width: 100%;
+    height: 60px;
+    border-radius: 0;
+}
+.footer__input-email {
+    width: 100%;
+    height: 60px;
+    border-radius: 0;
+}
+.footer__input-text {
+    width: 100%;
+    height: 60px;
+    border-radius: 0;
+}
+.footer__button {
+    margin-left: 19px;
+    padding: 8px 40px;
+    border-radius: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+.footer__logo {}
+}
